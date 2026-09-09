@@ -1,0 +1,12 @@
+{
+  "data_type": "synthetic_offline_demo",
+  "purpose": "Repository smoke test; not a reported SAFERR/DoxBench research result.",
+  "command": "python examples/run_offline_demo.py",
+  "generated_at_utc": "2026-09-09T15:25:47.930398+00:00",
+  "files": [
+    "prediction_table.csv",
+    "ocr_comparison.csv",
+    "final_results.csv",
+    "metrics_summary.json"
+  ]
+}

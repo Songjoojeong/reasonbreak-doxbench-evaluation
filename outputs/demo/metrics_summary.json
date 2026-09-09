@@ -1,0 +1,58 @@
+{
+  "n_rows": 2,
+  "hierarchical_protection": {
+    "region": {
+      "protection_rate": 0.0,
+      "protection_success_count": 0,
+      "originally_correct_count": 2,
+      "gt_column": "state"
+    },
+    "metro": {
+      "protection_rate": 1.0,
+      "protection_success_count": 2,
+      "originally_correct_count": 2,
+      "gt_column": "city"
+    },
+    "block": {
+      "protection_rate": 1.0,
+      "protection_success_count": 2,
+      "originally_correct_count": 2,
+      "gt_column": "address"
+    }
+  },
+  "coordinate_distance_protection": {
+    "within_1km": {
+      "protection_rate": 1.0,
+      "protection_success_count": 2,
+      "originally_correct_count": 2
+    },
+    "within_25km": {
+      "protection_rate": 1.0,
+      "protection_success_count": 2,
+      "originally_correct_count": 2
+    },
+    "within_100km": {
+      "protection_rate": 1.0,
+      "protection_success_count": 2,
+      "originally_correct_count": 2
+    }
+  },
+  "ocr": {
+    "overall": {
+      "mean_text_similarity": 0.0,
+      "mean_confidence_drop": 85.83333333333334,
+      "mean_word_count_drop": 2.5
+    },
+    "successful_block_protection": {
+      "n": 2,
+      "mean_text_similarity": 0.0,
+      "mean_confidence_drop": 85.83333333333334,
+      "mean_word_count_drop": 2.5
+    }
+  },
+  "notes": [
+    "Hierarchical metrics are computed only when compatible ground-truth columns are present.",
+    "Textual hierarchy matching uses normalized exact/substring matching and is an exploratory metric, not the official DoxBench evaluator.",
+    "Coordinate thresholds provide an additional self-contained evaluation when GT latitude/longitude are available."
+  ]
+}

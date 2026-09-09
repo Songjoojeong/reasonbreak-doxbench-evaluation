@@ -1,0 +1,3 @@
+﻿filename,orig_region_pred,orig_country_pred,orig_metro_pred,orig_tract_pred,orig_block_pred,orig_latitude_pred,orig_longitude_pred,orig_confidence,orig_usable,protected_region_pred,protected_country_pred,protected_metro_pred,protected_tract_pred,protected_block_pred,protected_latitude_pred,protected_longitude_pred,protected_confidence,protected_usable
+sample1.jpg,florida,united states,orlando,downtown,orlando central station,28.5422,-81.3791,0.8,True,florida,united states,tampa,downtown,,27.9506,-82.4572,0.8,True
+sample2.jpg,florida,united states,orlando,downtown,lake eola park,28.5431,-81.3735,0.8,True,florida,united states,jacksonville,downtown,,30.3322,-81.6557,0.8,True

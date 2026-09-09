@@ -1,0 +1,3 @@
+﻿filename,ocr_orig_text,ocr_protected_text,ocr_orig_conf,ocr_protected_conf,ocr_orig_word_count,ocr_protected_word_count,ocr_text_similarity,ocr_conf_drop,ocr_word_count_drop
+sample1.jpg,ORLANDOCENTRAL STATION,,94.0,0.0,2,0,0.0,94.0,2
+sample2.jpg,LAKE EOLA PARK,,77.66666666666667,0.0,3,0,0.0,77.66666666666667,3
